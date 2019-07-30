@@ -1,0 +1,25 @@
+.service-check{
+    width:calc(100% / 4);
+    min-width:350px;
+    background:transparent;
+    height:auto;
+    display:flex;
+    flex-direction:column;
+    padding:5px;
+    position:-webkit-sticky;
+    position:sticky;
+    top:0;
+    right:0;
+  }
+  .cart-items{
+    background:#fff;
+    opacity:0;
+  }
+  .show-items{
+    opacity:1;
+    transition:opacity 400ms ease-in;
+  }
+ 
+
+  
+ 

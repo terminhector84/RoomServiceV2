@@ -1,0 +1,20 @@
+[
+    {"_id":"0b1","url":"./image_data/eggs.jpg","item_name":"Eggs Any Style","price":"7.99","qty":0,"totalCost":0},
+    {"_id":"0b2","url":"./image_data/crepes.jpg","item_name":"Crepes","price":"8.99","qty":0,"totalCost":0},
+    {"_id":"0b3","url":"./image_data/bread.jpg","item_name":"Pastries","price":"2.99","qty":0,"totalCost":0},
+    {"_id":"0b4","url":"./image_data/coffee.jpg","item_name":"Coffee","price":"3.99","qty":0,"totalCost":0},
+    {"_id":"0b5","url":"./image_data/tea.jpg","item_name":"Tea","price":"3.99","qty":0,"totalCost":0},
+    {"_id":"0b6","url":"./image_data/juice.jpg","item_name":"Juice","price":"2.99","qty":0,"totalCost":0},
+    {"_id":"0l1","url":"./image_data/garden_salad.jpg","item_name":"Garden Salad","price":"8.99","qty":0,"totalCost":0},
+    {"_id":"0l2","url":"./image_data/tacos.jpg","item_name":"Tacos","price":"10.00","qty":0,"totalCost":0},
+    {"_id":"0l3","url":"./image_data/burger.jpg","item_name":"Burger","price":"14.99","qty":0,"totalCost":0},
+    {"_id":"0l4","url":"./image_data/soft_drink.jpg","item_name":"Soft Drinks","price":"2.99","qty":0,"totalCost":0},
+    {"_id":"0l5","url":"./image_data/beer.jpg","item_name":"Beer","price":"6.99","qty":0,"totalCost":0},
+    {"_id":"0l6","url":"./image_data/iced_coffee.jpg","item_name":"Iced Coffee","price":"3.99","qty":0,"totalCost":0},
+    {"_id":"0d1","url":"./image_data/fried_chicken.jpg","item_name":"Fried Chicken","price":"12.99","qty":0,"totalCost":0},
+    {"_id":"0d2","url":"./image_data/fish_and_chips.jpg","item_name":"Fish & Chips","price":"12.99","qty":0,"totalCost":0},
+    {"_id":"0d3","url":"./image_data/meatball_with_spaghetti.jpg","item_name":"Meatballs With Spaghetti","price":"16.99","qty":0,"totalCost":0},
+    {"_id":"0d4","url":"./image_data/margarita.jpg","item_name":"Blue Margarita","price":"12.00","qty":0,"totalCost":0},
+    {"_id":"0d5","url":"./image_data/sangria.jpg","item_name":"Sangria","price":"12.00","qty":0,"totalCost":0},
+    {"_id":"0d6","url":"./image_data/wine.jpg","item_name":"Wine","price":"8.00","qty":0,"totalCost":0}
+]

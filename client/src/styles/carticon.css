@@ -1,0 +1,40 @@
+.cart-icon-container{
+    width:100%;
+    height:100px;
+    display:flex;
+    justify-content:flex-end; 
+    background:transparent;
+    border:none;
+}
+.floating{
+    width:100px;
+    height:100px;
+    padding:30px;
+    background:red;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+.floating:hover{
+    box-shadow:3px 3px 3px #808080;
+}
+.floating:focus{
+    outline:none;
+}
+.fas{
+    display:block;
+    font-size:40px;
+    color:#fff;
+}
+
+@keyframes wink{
+    0%{background:#fff3aa;}
+    50%{background:#f57724;}
+    100%{background:red;}
+  }
+  .floating-wink{
+    animation-name:wink;
+    animation-iteration-count:1;
+    animation-duration:750ms;
+    animation-timing-function:ease-out;
+    }

@@ -1,0 +1,21 @@
+{
+  "name": "room-service-v2",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "concurrently  \"cd server && node app.js\" \"cd client && npm start\""
+  },
+  "dependencies": {
+    "concurrently": "^4.1.1"
+  },
+  "main": "app.js",
+  "keywords": [
+    "Express.js",
+    "React.js",
+    "Mongodb",
+    "Node.js"
+  ],
+  "author": "Hector Tapias",
+  "license": "ISC",
+  "description": "Room Service 2.0"
+}

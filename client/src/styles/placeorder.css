@@ -1,0 +1,32 @@
+.place-order{
+    width:100%;
+    height:50px;
+    display:flex;
+    justify-content:center;
+}
+.place-order-container{
+    width:156px;
+    height:37px;
+    margin:6.5px 0;
+    padding:7px;
+}
+.Link{
+    width:150px;
+    height:37px;
+    text-decoration:none;
+    font-size:20px;
+    font-weight:700;
+    background:green;
+    color:#fff;
+    border:none;
+    padding:5px 15px;
+    border-radius:25px;
+    cursor:pointer;
+}
+
+.Link:hover{
+    box-shadow:-5px 5px 3px #808080;
+    border-color:currentColor;
+    background:white;
+    color:green;
+}
