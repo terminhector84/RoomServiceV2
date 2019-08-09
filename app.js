@@ -1,4 +1,5 @@
 const fs = require("fs");
+const path = require("path");
 const express = require('express');
 const logger = require('morgan');
 const data = fs.readFileSync("./public/data/menu.json", "UTF-8");
@@ -10,7 +11,10 @@ const cors = require("cors");
 
 const app = express();
 
-app.use(express.static(path.join(__dirname,"../client")));
+const staticFiles = express.static(path.join(__dirname, './client/build'));
+
+console.log("path file ", path.join(__dirname, './client/build'));
+app.use(staticFiles);
 
 app.set('etag', false)
 app.use(function(req, res, next) {
@@ -38,8 +42,9 @@ async function connectDB(){
     }
 }
 
-app.get("*", (req, res)=>{
-    res.sendFile(path.join(__dirname + "../client/index.html"))})
+app.get("*", (req, res)=>{ 
+    res.sendFile(path.join(__dirname, './client/build'));
+})
 
 app.get("/getData", cors(), async (req, res)=>{
     const { cursor } = await connectDB();
