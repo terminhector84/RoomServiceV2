@@ -2,7 +2,6 @@
   "name": "room-service-v2",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://github.com/terminhector84/RoomServiceV2.0.git",
   "scripts": {
     "start": "concurrently  \"cd server && node app.js\" \"cd client && npm start\"",
     "build": "react-scripts build",
